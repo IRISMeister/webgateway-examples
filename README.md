@@ -22,5 +22,11 @@ $ cd webgateway-examples/demo-compose
 $ cp ~/git/apache-ssl/ssl/server.crt webgateway/sslwebcert.pem
 $ cp ~/git/apache-ssl/ssl/server.key webgateway/sslwebkey.pem
 $ cp ~/git/apache-ssl/ssl/caint.crt webgateway/SSLCertificateChainFile.pem
-
+$ ./setup.sh
 ```
+
+SMP is available via
+
+http://localhost:8882/csp/sys/UtilHome.csp  
+or  
+https://localhost:8883/csp/sys/UtilHome.csp
