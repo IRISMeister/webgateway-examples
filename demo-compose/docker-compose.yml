@@ -3,7 +3,7 @@ services:
   # iris container
   iris:
     image: ${IRISTAG}
-    init: true
+    #init: true
     container_name: iris
     hostname: iris
     ports:

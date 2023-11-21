@@ -17,6 +17,15 @@ Minimum_Server_Connections=3
 Maximum_Session_Connections=6
 Username=CSPSystem
 Password=]]]U1lT
+Connection_Security_Level=10
+SSLCC_Protocol_Min=16
+SSLCC_Protocol_Max=32
+SSLCC_Key_Type=2
+SSLCC_Cipher_Suites=ALL:!aNULL:!eNULL:!EXP:!SSLv2
+SSLCC_Cipher_Suites_1_3=TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256
+SSLCC_Certificate_File=/webgateway-shared/sslclicert.pem
+SSLCC_Certificate_Key_File=/webgateway-shared/sslclikey.pem
+SSLCC_CA_Certificate_File=/webgateway-shared/sslcliauth.pem
 
 [APP_PATH_INDEX]
 /=Enabled
